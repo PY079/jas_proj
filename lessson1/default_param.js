@@ -7,3 +7,4 @@ function compute(a,b=getDefaul(a)) {
 }
 
 console.log(compute(20))
+
