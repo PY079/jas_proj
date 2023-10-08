@@ -8,9 +8,11 @@ list.push("имя1", "имя2", "имя3", "имя4");
 // }
 
 // for (let item of list) {
-  // console.log(item);
+// console.log(item);
 // }
 
-list.forEach(function(item,index){
-  console.log(item,index)
-})
+list.forEach(function (item, index) {
+  console.log(item, index);
+});
+
+list.forEach((item, index) => console.log(`${index} => ${item}`));
